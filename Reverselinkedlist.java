@@ -39,7 +39,7 @@ class Reverselinkedlist
 		
 		else
 		{
-			while(current!=null)//logic to reversee the linked list through nrmal iterations
+			while(current!=null)//logic to reverse the linked list
 			{
 				nxt = current.next;
 				current.next = pre;
